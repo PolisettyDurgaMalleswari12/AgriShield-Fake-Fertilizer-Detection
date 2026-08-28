@@ -1,0 +1,11 @@
+product_id,product_name,brand,batch_number,mrp,seller_valid,expiry_valid,complaints
+F001,Urea,AgriGrow,B1001,350,1,1,0
+F002,DAP,AgriGrow,B1002,1350,1,1,0
+F003,Potash,GreenFarm,B1003,1700,1,1,1
+F004,Pesticide X,AgriSafe,P2001,850,1,1,0
+F005,Pesticide Y,AgriSafe,P2002,950,1,1,1
+F006,Urea,Unknown,B9001,700,0,1,8
+F007,DAP,Unknown,B9002,2200,0,1,6
+F008,Pesticide X,Unknown,P9001,1600,0,0,10
+F009,Urea,AgriGrow,B1009,350,1,1,0
+F010,DAP,Unknown,B9010,2500,0,0,12
