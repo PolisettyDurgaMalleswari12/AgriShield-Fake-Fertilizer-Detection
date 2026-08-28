@@ -1,4 +1,4 @@
-# AgriShield Final
+# AgriShield 
 
 Simple farmer safety web application using Python, Flask, SQLite, HTML/CSS/JavaScript.
 
