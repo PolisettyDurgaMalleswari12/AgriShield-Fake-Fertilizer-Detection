@@ -1,25 +1,53 @@
-# AgriShield 
+# 🌱 AgriShield
 
-Simple farmer safety web application using Python, Flask, SQLite, HTML/CSS/JavaScript.
+### Fake Fertilizer Detection & Farmer Safety Web Application
 
-## Features
-Farmer login/register, dashboard, direct camera QR/barcode scanning, product verification, batch/MRP/seller/expiry checks, rule-based risk score, history, reports, admin dashboard, English/Telugu/Hindi.
+AgriShield is a simple farmer-safety web application developed to help farmers verify fertilizer products and identify potentially fake or suspicious products.
 
-## Install
-pip install -r requirements.txt
+The application is built using **Python, Flask, SQLite, HTML, CSS, and JavaScript**.
 
-## Run
-python app.py
+---
 
-Open http://127.0.0.1:5000
+## 🚜 Features
 
-## Admin
-Email: admin@agrishield.com
-Password: admin123
+- 👤 Farmer Login & Registration
+- 📊 Farmer Dashboard
+- 📷 Direct Camera QR/Barcode Scanning
+- 🔍 Fertilizer Product Verification
+- 📦 Batch Number Verification
+- 💰 MRP Verification
+- 🏪 Seller Verification
+- 📅 Expiry Date Verification
+- ⚠️ Rule-Based Risk Score
+- 📜 Verification History
+- 📄 Reports
+- 🛠️ Admin Dashboard
+- 🌐 Multi-Language Support
+  - English
+  - Telugu
+  - Hindi
 
-## Camera
-The browser camera scanner uses the html5-qrcode JavaScript library from a CDN. Allow camera permission when prompted. A scanned code should contain a product ID such as F001 or F006.
+---
 
-The Product ID is filled automatically after scanning. Batch and MRP remain separate verification fields because the demo database treats them as independent checks.
+## 🔄 How It Works
 
-This is an academic/demo system. A risk score is not legal proof of counterfeit status; real deployment requires authorized manufacturer/government data and secure authentication.
+```text
+Farmer
+   ↓
+Login / Register
+   ↓
+Dashboard
+   ↓
+Scan QR / Barcode
+   ↓
+Product ID Verification
+   ↓
+Batch / MRP / Seller / Expiry Checks
+   ↓
+Risk Score Calculation
+   ↓
+Verification Result
+   ↓
+Save Verification History
+   ↓
+Generate Report
